@@ -49,10 +49,10 @@ function withGuides(previousLine, line) {
   for (let i = 0, len = previousLine.length; i < len && line[i]; i++) {
     let charAbove = previousLine[i];
     let char = line[i];
-    let isBelowGuide = charAbove.search(/[├|]/) !== -1;
-    let isNotSymbol = char.search(/[├|└]/) === -1;
+    let isBelowGuide = charAbove.search(/[├│]/) !== -1;
+    let isNotSymbol = char.search(/[├│└]/) === -1;
     if (isBelowGuide && isNotSymbol) {
-      line = setCharAt(i, '|', line);
+      line = setCharAt(i, '│', line);
     };
   }
   return line;
