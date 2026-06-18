@@ -55,29 +55,29 @@ then `treeify` would output;
 ├── Marsha
 ├── Judith
 ├── Loren
-|   └── Hedwig
+│   └── Hedwig
 ├── Tamela
-|   └── Judie
-|       ├── Gustavo
-|       ├── Holley
-|       |   ├── Devon
-|       |   ├── Brook
-|       |   |   └── Dovie
-|       |   |       ├── Marguerite
-|       |   |       └── Jennell
-|       |   |           └── Lia
-|       |   |               └── Herman
-|       |   ├── Oneida
-|       |   ├── Caridad
-|       |   └── Fran
-|       |       └── Brendon
-|       |           ├── Giovanni
-|       |           └── Coreen
-|       |               └── Fritz
-|       |                   └── Carita
-|       ├── Almeda
-|       ├── Kip
-|       └── Jazmine
+│   └── Judie
+│       ├── Gustavo
+│       ├── Holley
+│       │   ├── Devon
+│       │   ├── Brook
+│       │   │   └── Dovie
+│       │   │       ├── Marguerite
+│       │   │       └── Jennell
+│       │   │           └── Lia
+│       │   │               └── Herman
+│       │   ├── Oneida
+│       │   ├── Caridad
+│       │   └── Fran
+│       │       └── Brendon
+│       │           ├── Giovanni
+│       │           └── Coreen
+│       │               └── Fritz
+│       │                   └── Carita
+│       ├── Almeda
+│       ├── Kip
+│       └── Jazmine
 └── Lonna
     └── Porsha
 ```
